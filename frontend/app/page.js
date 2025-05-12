@@ -17,7 +17,7 @@ export default function Home() {
   }, []);
 
   const handleSubmit = async () => {
-    const res = await fetch("http://127.0.0.1:5000/predict", {
+    const res = await fetch("https://spam-detection-app-backend.onrender.com/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
