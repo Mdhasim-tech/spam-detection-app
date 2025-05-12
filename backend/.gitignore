@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+venv/
+*.pkl
+*.joblib
+
+# Logs
+*.log
